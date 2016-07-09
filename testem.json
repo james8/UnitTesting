@@ -1,0 +1,16 @@
+// AngularJS and angular-mocks need to be the same version
+{
+    "launch_in_dev": [
+        "chrome"
+    ],
+    "src_files": [
+        "https://cdnjs.cloudflare.com/ajax/libs/jquery.SPServices/2014.02/jquery.SPServices-2014.02.min.js",
+        "http://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js",
+        "https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.1/angular-ui-router.js",
+        "App/app.js",
+        "App/appController.js",
+
+        "Tests/lib/angular-mocks.js",
+        "Tests/spec/*.js"
+    ]
+}
